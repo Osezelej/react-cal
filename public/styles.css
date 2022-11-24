@@ -1,0 +1,128 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.button_div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.container{
+  background-color: rgb(0, 224, 224);
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.display{
+  height:150px;
+  width:250px;
+  color: rgb(39, 39, 39);
+  font-size: x-large;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  padding: 10px;
+  font-weight: 800;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.display::-webkit-scrollbar-thumb{
+  color: rgb(0, 224, 224);
+  background-color: rgb(0, 224, 224);
+  
+}
+.calculator_buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: stretch;
+  align-items: stretch;
+  margin-top: 20px;
+  gap: 10px;
+}
+.calbuttons{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-weight: 600;
+  font-size: 18px;
+ 
+}
+#_0{
+  grid-column: 1;
+  grid-row: 2;
+
+}
+#_1{
+  grid-column: 2;
+  grid-row: 2;
+
+}
+#_2{
+  grid-column: 3;
+  grid-row: 2;
+
+}
+#_3{
+  grid-column: 1;
+  grid-row: 3;
+
+}
+#_4{
+  grid-column: 2;
+  grid-row: 3;
+
+}
+#_5{
+  grid-column: 3;
+  grid-row: 3;
+
+}
+#_6{
+  grid-column: 1;
+  grid-row: 4;
+
+}
+#_7{
+  grid-column: 2;
+  grid-row: 4;
+
+}
+#_8{
+  grid-column: 3;
+  grid-row: 4;
+
+}
+#_9{
+  grid-column: 2;
+  grid-row: 5;
+
+
+}
+#_14{
+  display: flex;
+  grid-row: 4 / span 5;
+  align-items: stretch;
+  padding-bottom: 30px;
+}
+#_15{
+  grid-column: 1;
+  grid-row: 1;
+  
+}
+#_16{
+  grid-column: 4;
+  grid-row: 1;
+  
+}
+#_15 button{
+  background-color: lawngreen;
+}
