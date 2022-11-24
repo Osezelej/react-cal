@@ -8,9 +8,9 @@ function App() {
     const operators = ['+', '-', '÷', '×', '=', 'c', '‣', '(', ')']
     const [displayNumber, setdisplayNumber] = useState('')
     function setnumber(num){
-        if(num == 'c'){
+        if(num === 'c'){
             setdisplayNumber('')
-        }else if(num == '‣'){
+        }else if(num === '‣'){
             setdisplayNumber((prev)=>{
                 prev = prev.slice(0, prev.length-1)
                 return prev
